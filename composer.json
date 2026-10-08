@@ -1,0 +1,11 @@
+{
+	"name": "shreyaslal/smart-payroll-management-system",
+	"description": "Web-based payroll and HR management system (employees, attendance, leave, loans, assets, projects, payslips) built with PHP, CodeIgniter 3 and MySQL.",
+	"type": "project",
+	"keywords": ["payroll", "hrms", "codeigniter", "php", "mysql"],
+	"require": {
+		"php": ">=7.4",
+		"ext-mysqli": "*",
+		"ext-calendar": "*"
+	}
+}

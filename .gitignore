@@ -1,0 +1,50 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Local environment
+.env
+
+# CodeIgniter runtime files
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+# User uploads: keep the folders, ignore what people upload.
+# Only the demo files referenced by database/payroll_db.sql are tracked.
+assets/images/users/*
+!assets/images/users/.gitkeep
+!assets/images/users/user.png
+!assets/images/users/Aka17531.jpg
+!assets/images/users/kum1963.jpg
+!assets/images/users/Kum1382.jpg
+!assets/images/users/kum1890.jpg
+!assets/images/users/Pra1827.jpg
+!assets/images/users/Jas1706.jpg
+!assets/images/users/Ran1558.jpg
+!assets/images/users/A.1352
+!assets/images/users/G.1791
+!assets/images/users/K.1146
+!assets/images/users/.R1636
+assets/images/notice/*
+!assets/images/notice/.gitkeep
+!assets/images/notice/Star_City_Township_Project.pdf
+assets/images/projects/*
+!assets/images/projects/.gitkeep
+assets/images/application/*
+!assets/images/application/.gitkeep
+
+# Old layout / leftovers from the original download (superseded by database/ and docs/)
+/SQL File/
+/Project Summary/
+/Sample Payslip.pdf
+/application/supplier.png
+
+# Backup of the files changed during the cleanup (local only)
+/_original_backup/
